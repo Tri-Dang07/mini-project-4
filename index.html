@@ -1,0 +1,113 @@
+# mini-project-4
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Góc Học Tập Frontend & Bộ Sưu Tập Ảnh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">FrontendLearning</div>
+      <ul class="nav-menu">
+        <li><a href="#gallery">Bộ Sưu Tập</a></li>
+        <li><li><a href="#learning-path">Lộ Trình Học</a></li></li>
+        <li><a href="#schedule">Lịch Kế Hoạch</a></li>
+        <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">Tài Liệu MDN</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section id="gallery" class="section-box">
+      <h2>📸 Bộ Sưu Tập Không Gian Làm Việc</h2>
+      <p class="section-desc">Hình ảnh truyền cảm hứng tạo động lực học tập lập trình web mỗi ngày.</p>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/180/600/400" alt="Góc làm việc gọn gàng với máy tính xách tay và một tách cà phê nóng" width="600" height="400">
+          <p class="img-caption">Không gian tập trung sáng tạo</p>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/id/48/600/400" alt="Bàn làm việc máy tính cá nhân hiển thị các dòng mã nguồn HTML CSS" width="600" height="400">
+          <p class="img-caption">Thực hành gõ code mỗi ngày</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="learning-path" class="section-box bg-light">
+      <h2>📚 Nội Dung Kiến Thức Cần Tích Lũy</h2>
+      <p class="section-desc">Các mục tiêu cốt lõi cần phải vượt qua để làm chủ kỹ năng thiết kế giao diện.</p>
+      
+      <ol class="main-list">
+        <li>
+          <strong>Xây dựng nền tảng vững chắc với HTML5</strong>
+          <ul class="sub-list">
+            <li>Nắm rõ ngữ nghĩa các thẻ khối (`header`, `main`, `section`, `footer`).</li>
+            <li>Sử dụng thành thạo thẻ liên kết `<a>` và các thuộc tính điều hướng.</li>
+            <li>Tổ chức dữ liệu mượt mà bằng danh sách (`ul`, `ol`) và bảng (`table`).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Trang trí giao diện sinh động bằng CSS3</strong>
+          <ul class="sub-list">
+            <li>Tư duy màu sắc, font chữ và các thuộc tính khoảng cách (`margin`, `padding`).</li>
+            <li>Bố cục nâng cao với Flexbox và Grid Layout để tự động co giãn giao diện.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="schedule" class="section-box">
+      <h2>📅 Bảng Kế Hoạch Học Tập Tuần Này</h2>
+      <p class="section-desc">Thời gian biểu chi tiết để theo dõi tiến độ hoàn thành các dự án nhỏ.</p>
+      
+      <div class="table-responsive">
+        <table class="styled-table">
+          <caption>Lịch Học & Thực Hành Dự Án Cá Nhân</caption>
+          <thead>
+            <tr>
+              <th>Thứ trong tuần</th>
+              <th>Nội dung bài học</th>
+              <th>Thời gian dự kiến</th>
+              <th>Trạng thái</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Thứ Hai - Thứ Ba</strong></td>
+              <td>Học lý thuyết nâng cao về Bảng và Danh sách lồng nhau</td>
+              <td>19:30 - 21:30</td>
+              <td><span class="status-done">Đã hoàn thành</span></td>
+            </tr>
+            <tr>
+              <td><strong>Thứ Tư - Thứ Năm</strong></td>
+              <td>Lên ý tưởng thiết kế UI và cắt giao diện Mini-project 4</td>
+              <td>20:00 - 22:00</td>
+              <td><span class="status-doing">Đang làm</span></td>
+            </tr>
+            <tr>
+              <td><strong>Thứ Sáu - Chủ Nhật</strong></td>
+              <td>Tối ưu mã nguồn, viết file README và đẩy dự án lên GitHub</td>
+              <td>Flexible</td>
+              <td><span class="status-pending">Chưa bắt đầu</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 - Dự án được thực hiện bởi Học Viên Frontend xuất sắc. Giữ toàn quyền nội dung.</p>
+    <p><a href="#gallery">Cuộn về đầu trang ↑</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
